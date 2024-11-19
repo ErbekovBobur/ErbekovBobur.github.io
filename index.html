@@ -3,129 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Пример сайта-визитки">
-    <title>Моя визитка</title>
-    <style>
-      /* Сброс стилей */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-/* Обертка для контента */
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Шапка */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.2rem;
-}
-
-/* Секции */
-section {
-    margin-bottom: 40px;
-}
-
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-section p, section ul {
-    font-size: 1.1rem;
-}
-
-/* Список услуг */
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-/* Ссылки */
-a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Подвал */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 40px;
-}
-      
-    </style>
+    <meta name="description" content="Портфолио Bobur Erbekov">
+    <title>Портфолио Bobur Erbekov</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Добро пожаловать на мой сайт!</h1>
-            <p>Меня зовут Иван Иванов, я веб-разработчик.</p>
+            <h1>Портфолио</h1>
+            <p>Привет, я Bobur Erbekov — веб-разработчик.</p>
         </div>
     </header>
 
     <section id="about" class="container">
         <h2>Обо мне</h2>
-        <p>Я занимаюсь веб-разработкой более 5 лет, специализируюсь на создании сайтов и приложений. Мой опыт включает работу с HTML, CSS, JavaScript, а также с фреймворками как React и Vue.</p>
+        <p>Я занимаюсь разработкой на различных технологиях, включая HTML, CSS, JavaScript, React, Node.js. Мой опыт и знания позволяют создавать качественные и удобные веб-приложения.</p>
     </section>
 
-    <section id="services" class="container">
-        <h2>Услуги</h2>
-        <ul>
-            <li>Разработка веб-сайтов</li>
-            <li>Поддержка и оптимизация сайтов</li>
-            <li>Создание интернет-магазинов</li>
-        </ul>
-    </section>
-
-    <section id="contact" class="container">
-        <h2>Контакты</h2>
-        <p>Вы можете связаться со мной по следующим каналам:</p>
-        <ul>
-            <li>Электронная почта: <a href="mailto:ivan@example.com">ivan@example.com</a></li>
-            <li>Телефон: +7 123 456 78 90</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/ivan-ivanov" target="_blank">ivan-ivanov</a></li>
-        </ul>
+    <section id="projects" class="container">
+        <h2>Мои проекты</h2>
+        <div id="projects-list">
+            <!-- Проекты будут загружаться сюда -->
+        </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Иван Иванов. Все права защищены.</p>
+            <p>&copy; 2024 Bobur Erbekov. Все права защищены.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
